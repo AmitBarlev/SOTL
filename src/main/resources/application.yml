@@ -1,3 +1,9 @@
 redis:
   host: "localhost"
-  port: 6739
+  port: 6379
+
+open-telemetry:
+  service-name: "sotl"
+  collector-url: "http://localhost:4317"
+
+
